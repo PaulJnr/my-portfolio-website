@@ -13,14 +13,27 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">
-                <img src="img/logo.png" alt="logo">
-            </a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <img src="/img/logo.jpg" class="logo" alt="logo" />
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- links -->
+                <ul class="links">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -42,17 +55,17 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="grid-container">
         <address class="address">
             4277 Isikalu St <br>
             Mooifontein 14-IR <br>
             Kempton Park <br>
             South Africa
         </address>
-        <div class="socials">
+        <div class="social-icons">
             <i class="fa fa-twitter" aria-hidden="true"></i>
             <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-phone" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"> +27 76 058 2307</i>
         </div>
         <div class="map">
             <iframe
@@ -62,5 +75,5 @@
         </div>
     </footer>
 </body>
-
+<script src="app.js"></script>
 </html>
